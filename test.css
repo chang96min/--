@@ -120,16 +120,29 @@ main {
 }
 
 #btn {
-  margin-top: 16px;
   display: flex;
-  justify-content: flex-end;
+  justify-content:space-between
+}
+
+#btn-del {
+  margin-top: 16px;
+  font-size: 26px;
+  margin-right: 12px;
+  color: #424141;
+}
+
+#tts {
+  margin-top: 16px;
   align-items: center;
   font-size: 26px;
   color: #424141;
 }
 
-#btn-del {
-  margin-right: 12px;
+#select-lang {
+  width: 60%;
+  font-size: 20px;
+  margin-right: 1rem;
+  color: #424141;
 }
 
 .card {
@@ -202,9 +215,7 @@ main {
   -webkit-text-fill-color: transparent;
 }
 
-#select-lang {
-  visibility: hidden;
-}
+
 
 @font-face {
   font-family: "ELAND_Nice_M";

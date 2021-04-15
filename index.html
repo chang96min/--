@@ -24,13 +24,21 @@ rel="stylesheet"/>
         <div id="label-container"></div>
         <div id="btn">
           <i class="fas fa-redo" id="btn-del" onclick="btndel()"></i>
-          <i class="fas fa-volume-up" id="btn-read"></i>
+
+          <div id="tts">
+            <select id="select-lang">
+              <option value="ko-KR">한국어</option>
+              <option value="en-EN">영어</option>
+              <option value="jp-JP">일본어</option>
+              </select>
+            <i class="fas fa-volume-up" id="btn-read"></i>
+          </div>
         </div>
 
         <div class="card">
           <img src="./logo.png" height="80px" style="border-radius: 8px;">
             <div class="card_info">
-              <h2>신뢰성</h2>
+              <h2>AI 판단 확률</h2>
               <p>머신러닝 신뢰성 지표입니다. (숫자가 높을 수록 정확함)</p>
               <!--<div class="progress"></div>-->
               <div class="bar-holder">
@@ -41,9 +49,7 @@ rel="stylesheet"/>
             <h2 id="percentage">90%</h2>
         </div>
 
-          <select id="select-lang">
-          <option id=value="ko-KR"></option>
-          </select>
+
       </div>
     </section>
 </main>
