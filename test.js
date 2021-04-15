@@ -73,7 +73,7 @@ async function predict() {
         count = 1;
     }
 
-} else if (prediction[2].className == '반갑습니다' && prediction[2].probability.toFixed(2) >= 1.00) {
+} /*else if (prediction[2].className == '반갑습니다' && prediction[2].probability.toFixed(2) >= 1.00) {
     count += 1
     if (count % 60 == 0) {
         labelContainer
@@ -84,7 +84,7 @@ async function predict() {
         count = 1;
     }
 
-} else if (prediction[3].className == '오늘' && prediction[3].probability.toFixed(2) >= 0.90) {
+}*/ else if (prediction[3].className == '오늘' && prediction[3].probability.toFixed(2) >= 0.90) {
     count += 1
     if (count % 60 == 0) {
         labelContainer
